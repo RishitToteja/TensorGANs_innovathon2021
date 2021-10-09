@@ -1,0 +1,5 @@
+1. Illustrate the difference between simulation and modelling.[CO1-Understanding]
+2. Outline the difference between analytical and numerical simulation. [CO1-Understanding]
+3. Explain continuous system with a suitable example. [CO1-Understanding]
+4. List some major industries where simulation is used. [CO1-Remembering]
+5. Demonstrate how we can offset the disadvantage of simulation. [CO1-Understanding]
