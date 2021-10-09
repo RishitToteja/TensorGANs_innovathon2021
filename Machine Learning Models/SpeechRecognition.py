@@ -5,6 +5,20 @@ import speech_recognition as sr
 saved_vectors = 'GoogleNews-vectors-negative300.bin.gz'
 EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz'
 
+with open("questionpaper.txt", "r") as file:
+    data = file.read().replace("\n", " ")
+
+data = data.split(" ")
+question_paper = []
+for i in range(int(len(data)/5)):
+    question_paper.append(data[5*i: (5*i) + 5])
+
+question_paper_list = []
+for i in question_paper:
+    empty = ""
+    for j in i:
+        empty += (j + " ")
+    question_paper_list.append(empty)
 
 class DocSim:
     def __init__(self, w2v_model, stopwords=None):
@@ -76,6 +90,8 @@ mic = sr.Microphone(device_index=1)  # mic device id is required here.
 sound = True
 # recognizing voice continuously to for look for cheating
 
+count = 0
+
 while sound:
     with mic as source:
         print("Starting recognition")
@@ -85,8 +101,12 @@ while sound:
             audio_text = recognise.recognize_google(audio)
             print(audio_text)
             source_doc = audio_text
-            target_docs = ['answer for question 1', 'Didnt get the answer', 'Any other new answers']
+            target_docs = question_paper_list
             sim_scores = ds.calculate_similarity(source_doc, target_docs)
+            if sim_scores[0][list(sim_scores[0].keys())[0]] > 0.6:
+                count += 1
             print(sim_scores)
+            print("Number of Detected Cheating Attempts: {}".format(count))
         except:
             print("")
+
