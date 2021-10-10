@@ -61,7 +61,7 @@ main {
   
 }
 
-
+/*Adds the typewriter animation to the main heading of the landing page*/
 #typewriter{
 
 	font-family: 'Michroma', sans-serif;
@@ -88,7 +88,7 @@ main {
   50% { border-color: orange; }
 }
 
-
+/*typewriter animation to the second line */
 #typewriterr{
 	color: white;
 	font-size: 30px;
@@ -137,14 +137,14 @@ main {
 	flex-direction: row;
 }
 
-
+/*bg image for the webpage except the landing page */
 body {
 background-image: url(q2.jpg);
 background-size:cover;
 
 
 }
-
+/*bg color of the cards of the navigation bar*/
 #nav1{
 	background-color: rgba(14, 13, 13, 0.7);
 }
