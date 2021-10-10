@@ -11,6 +11,7 @@ import v1 from "./exam.mp4";
 import i1 from "./image2.jpg";
 import i2 from "./image1.jpg";
 
+//NavBar component
 const Nav=()=>{
 	return (
 		<>
@@ -28,7 +29,7 @@ const Nav=()=>{
 				
 				 <h2 className="mt2 mb0 f6 fw4 ttu tracked animate__animated animate__jackInTheBox animate__delay-1s" id="typewriterr"> "Changing the way teachers take examinations" </h2>     <br/>
 				 </div>
-				 
+				 //Routing
 				 <nav className="bt bb tc mw7 center dib mt4 bold ">
           <div className="bt bb tc mw7 dib center mt4 ">
               <div className="dib flex">
@@ -96,7 +97,7 @@ function Home() {
 		
 	);
 }
-
+//Registration form
 function About() {
   return (<div className="">
 	
@@ -122,6 +123,7 @@ function About() {
     
 	</div>);
 }
+//Preview/Demo component
 function Users() {
 	
 	document.addEventListener("visibilitychange", function(){
@@ -136,7 +138,7 @@ function Users() {
 
 	});
 	const [playing, setPlaying] = useState(false);
-
+//Detecting keyboard shortcuts
 useEffect(() => {
     const handleEsc = (event) => {
        if (event.keyCode === 86) {
@@ -154,6 +156,7 @@ useEffect(() => {
 	function startVideo () {
     console.log("Hello");
 		setPlaying(true);
+		//Accessing Webcam
 		navigator.getUserMedia(
 			{
 				video: true,
@@ -188,6 +191,7 @@ useEffect(() => {
 					className="app__videoFeed"
 				></video>
 			</div>
+                    //Video stop and start button
 			<div className="app__input">
 				{playing ? (
 					<button onClick={stopVideo} className="f6 grow no-underline br-pill ph3 pv2 mb2 dib black bg-light-purple">Stop</button>
@@ -196,7 +200,7 @@ useEffect(() => {
 				)}
 		
 			</div>
-
+               //Question paper
 		 <div className="appp"><img src="https://extensions.libreoffice.org/assets/screenshots/z/question-paper_0af0fc3d-4b69-4367-b5d1-904b5d5aeeb0__FitMaxWzEwMDAsMTAwMF0.png"/></div>
 	    	</div>
 			</section>	
@@ -206,7 +210,7 @@ useEffect(() => {
 	);
 	
 }
-
+//Our Github links along with project repository link
 function Contact() {
   return (<div className="">
 	<ul>
