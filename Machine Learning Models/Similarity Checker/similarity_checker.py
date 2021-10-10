@@ -1,12 +1,15 @@
 import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
 
+# use this command to download the file - !wget -P /root/input/ -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
 saved_vectors = 'GoogleNews-vectors-negative300.bin.gz'
 EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz'
 
+#converting answers of the target student to a string
 with open("plagChecking/answer_sheet1.txt", "r") as file:
     data1 = file.read().replace("\n", " ")
-
+    
+#converting answers of the other student to a list of strings
 with open("plagChecking/answer_sheet2.txt", "r") as file:
     data2 = file.read().replace("\n", " ")
 
@@ -88,7 +91,7 @@ with open(stopwords_path, 'r') as fh:
 ds = DocSim(model, stopwords=stopwords)
 
 source_doc = data1
-target_docs = ans2
+target_docs = ans2 # we can provide multiple student's answers to check between them
 sim_scores = ds.calculate_similarity(source_doc, target_docs)
 count = 0
 for i in sim_scores:
