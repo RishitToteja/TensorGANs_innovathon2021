@@ -2,9 +2,11 @@ import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
 import speech_recognition as sr
 
+# use this command to download the file - !wget -P /root/input/ -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
 saved_vectors = 'GoogleNews-vectors-negative300.bin.gz'
 EMBEDDING_FILE = 'GoogleNews-vectors-negative300.bin.gz'
 
+# converting question paper to a list of strings of 5 words
 with open("questionpaper.txt", "r") as file:
     data = file.read().replace("\n", " ")
 
@@ -43,7 +45,6 @@ class DocSim:
                 pass
 
         # Assuming that document vector is the mean of all the word vectors
-        # We could improvise here
         vector = np.mean(word_vecs, axis=0)
         return vector
 
@@ -88,10 +89,9 @@ recognise = sr.Recognizer()
 mic = sr.Microphone(device_index=1)  # mic device id is required here.
 
 sound = True
-# recognizing voice continuously to for look for cheating
-
 count = 0
 
+# recognizing voice continuously to for look for cheating
 while sound:
     with mic as source:
         print("Starting recognition")
