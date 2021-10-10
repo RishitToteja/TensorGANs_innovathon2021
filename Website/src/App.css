@@ -1,7 +1,8 @@
 main {
   text-align: center;
   vertical-align: center;
-  line-height: 100vh
+  line-height: 100vh;
+	font-family: 'Nanum Gothic', sans-serif;
 }
  .oil{
 	 background-color:  rgb(224,201,166);
@@ -11,4 +12,161 @@ main {
 	width: 190px;
 
 
+}
+#container{
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px rgb(2, 204, 170) solid;
+}
+#videoelement{
+	width:  500px;
+	height: 375px;
+	background-color: #666;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	margin-right: 90px;
+	align-items: left;
+	padding-left: 110px;
+	padding-top: 142px;
+
+}
+.t2{
+	padding-top: 70px;
+	margin-top: 70px;
+	justify-content: left;
+	margin-right: 90px;
+	align-items: left;
+
+}
+
+.app__input {
+	margin-top:-80px;
+	justify-content: center;
+	align-items: center;
+	padding-left: 100px;
+}
+.t1 {
+		background-color: linear-gradient(#e66465, #9198e5);
+		background-attachment: fixed;
+}
+
+
+
+.startbutton{
+	align-items: center;
+  
+}
+
+
+#typewriter{
+
+	font-family: 'Michroma', sans-serif;
+	font-size:60px;
+	color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(20, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+#typewriterr{
+	color: white;
+	font-size: 30px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(500, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.bg{
+	background-color: rgba(0,0,0, 0.4);
+}
+
+
+.text{
+	background-color: rgb(0,0,0,0.4);
+}
+
+.appp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+	height: 1px;
+	margin-left: 600px;
+	margin-top: -10px;
+}
+
+.for{
+	display: flex;
+	flex-direction: row;
+}
+
+
+body {
+background-image: url(q2.jpg);
+background-size:cover;
+
+
+}
+
+#nav1{
+	background-color: rgba(14, 13, 13, 0.7);
+}
+#nav2{
+	background-color: rgba(175, 184, 180, 0.7);
+}
+#nav3{
+	background-color: rgba(14, 13, 13, 0.7);
+}
+#nav4{
+	background-color: rgba(175, 184, 180, 0.7);
+}
+
+
+.about1{
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+}
+.about2{
+		align-content: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
 }
