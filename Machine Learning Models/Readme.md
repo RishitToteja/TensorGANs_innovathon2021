@@ -13,6 +13,10 @@
                                     In the output image, The Malicious Objects detected were bound inside a rectangular boxes.
                                     Malicious Object Detection, could be used for AI Proctoring System. If malicious objects like cell phones, calculators were detected in the                                         user's live stream, it would be immediately reported to the authorities and necessary action would be taken against the cheaters.
                                     
+4. **Mouth Opening Detection** : Used OpenCV in Python for detecting whether the Mouth of the user is open or not. For Facial detection in OpenCV used *face_detect.xml* and for                                    detecting facial landmarks (mouth), dlib file, *shape_predictor_68_face_landmarks.dat* was used. Since the project was carried out in Google                                        Colab, Used a few Javascript Helper functions for geting live stream webcam access in google colab to make live predictions. Rectangular bounding                                  boxes were made on the Mouth detected. Also, if the mouth was open it was detected and printed on the Image.
+                                 Mouth Detection is helpful for AI Proctoring, because the program would be able to detect if the user is speaking as the mouth would be open.
+                                 This can help in identifying malicious behaviour and reducing cheating.
+                                     
                               
                         
      
