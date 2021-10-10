@@ -1,0 +1,51 @@
+1. Explain how to design a simulation experiment.
+Answer - A simulation experiment is a test or a series of tests in which meaningful changes are made to the input variables of a simulation model so that we may observe and identify the reasons for changes in the performance measures. The number of experiments in a simulation study is greater than or equal to the number of questions being asked about the model.
+The following steps illustrate the process of designing a simulation experiment.
+Step 1: Select appropriate experimental design. Choose a performance measure, a few input variables that are likely to influence it, and the levels of each. Make a record of the experimental setup.
+Step 2. Establish experimental conditions for runs. Address the question of obtaining accurate information and the most information from each run. Determine if the system is stationary or non-stationary. Generally, in stationary systems, steady-state behaviour of the response variable is of interest. Ascertain whether a terminating or a non-terminating simulation run is appropriate. Select the run length. Select appropriate starting conditions.
+Decide the number of independent runs - each run uses a different random number stream and the same starting conditions - by considering output data sample size. Sample size must be large enough to provide the required confidence in the performance measure estimates.
+Step 3. Perform simulation runs. Perform runs according to steps 1-2 above.
+2. Summarize how to perform simulation analysis.
+Answer - Following are the steps to perform simulation analysis.
+Step 1 − Prepare a problem statement.
+Step 2: For the simulation process, select input variables and create entities. Decision variables and uncontrolled variables are the two sorts of variables. The programmer has control over decision variables, whereas random variables are uncontrollable.
+Step 3: Assign the decision variables to the simulation process to create limits on them.
+Step 4: Determine the variables that will be output.
+Step 5: Gather information from the real-world system to use in the simulation.
+Step 6: Create a flowchart that depicts the simulation's development.
+Step 7: To run the model, select an appropriate simulation software.
+Step 8: Check the simulation model's results against the real-time system.
+Step 9: Experiment with the model to discover the optimum solution by adjusting the variable values.
+Step 10: Finally, implement the results into the real-time system.
+3. What makes a problem suitable for simulation modelling and analysis?
+Answer - In general, simulation is the instrument of choice when it comes to modelling and analysing randomness in a system. The following are examples of instances when simulation modelling and analysis are used:
+➢ It is impossible or extremely expensive to observe certain processes in the real world, e.g., next year's cancer statistics, performance of the next space shuttle, and the effect of Internet advertising on a company's sales.
+➢ Problems in which mathematical model can be formulated but analytic solutions are either impossible (e.g., high order difference equations) or too complicated (e.g., complex systems like the stock market, and large-scale queuing models).
+➢ It is impossible or extremely expensive to validate the mathematical model describing the system, e.g., due to insufficient data.
+Government, defence, computer and communication systems, manufacturing, transportation (air traffic control), health care, ecology and environment, sociological and behavioural studies, biosciences, epidemiology, services (bank teller scheduling), economics, and business analysis are just a few of the fields where simulation is used.
+4. List some pitfalls to guard against in simulation.
+Answer - From modelling to output analysis, simulation can be a time-consuming and complex process that requires the participation of local experts and decision-makers throughout. Following is a list of pitfalls to guard against.
+➢ When an analytic solution is appropriate, simulation is used.
+➢ Model isn't valid.
+➢ The simulation model is either too complicated or too simplistic.
+➢ Assumptions that are incorrect.
+➢ Assumptions that haven't been documented. This is critical, and it is strongly advised that all assumptions made during the simulation modelling and analysis activity be thoroughly recorded.
+➢ Using the wrong input probability distribution.
+➢ Replacing a distribution (stochastic) by its mean (deterministic).
+➢ Using the wrong performance measure.
+➢ The simulation programme has bugs.
+➢ Using standard statistical formulas that assume independence in simulation output analysis.
+➢ Initial bias in output data.
+➢ Making one simulation run for a configuration
+5. Outline the benefits of simulation modelling and analysis.
+Answer - Simulation modelling and analysis is one of the most frequently used operations research techniques. Some benefits of simulation modelling and analysis are :
+➢ Obtain a better understanding of the system by developing a mathematical model of a system of interest, and observing the system's operation in detail over long periods of time.
+➢ Test hypotheses about the system for feasibility.
+➢ Compress time to observe certain phenomena over long periods or expand time to observe a complex phenomenon in detail.
+➢ Study the effects of certain informational, organizational, environmental and policy changes on the operation of a system by altering the system's model; this can be done without disrupting the real system and significantly reduces the risk of experimenting with the real system.
+➢ Experiment with new or unknown situations about which only weak information is available.
+➢ Identify the "driving" variables - ones that performance measures are most sensitive to - and the inter-relationships among them.
+➢ Identify bottlenecks in the flow of entities (material, people, etc.) or information.
+➢ Use multiple performance metrics for analysing system configurations.
+➢ Employ a systems approach to problem solving.
+➢ Develop well designed and robust systems and reduce system development time.
