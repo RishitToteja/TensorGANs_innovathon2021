@@ -90,20 +90,17 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 5. An easy to use end to end solution can be setup for universities and testing agencies.
 
 ## Screenshots:
-
+![alt text](/Screenshots/eyes_detection.jpg)
+![alt text](/Screenshots/mouth_detection.jpg)
 ![alt text](/Screenshots/Cell%20phone.png)
 ![alt text](/Screenshots/Cell%20phone.png)
 ![alt text](/Screenshots/headphone2.JPG)
 ![alt text](/Screenshots/headphone3.JPG)
 ![alt text](/Screenshots/person.JPG)
-
-![alt text](/Screenshots/Similarity%20checker.png)
-![alt text](/Screenshots/Speech%20Recognition.png)
 ![alt text](/Screenshots/person2.png)
 ![alt text](/Screenshots/person3.JPG)
+![alt text](/Screenshots/Similarity%20checker.png)
+![alt text](/Screenshots/Speech%20Recognition.png)
 
-![alt text](/Screenshots/eyes_detection.jpg)
-
-![alt text](/Screenshots/mouth_detection.jpg)
 
 [Demo Video]()
