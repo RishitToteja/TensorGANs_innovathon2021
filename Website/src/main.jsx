@@ -5,7 +5,7 @@ import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App style="background-color: rgb(224,201,166);" />
+    <App style="background-color: rgb(224,201,166);" />  //main component
   </React.StrictMode>,
   document.getElementById('root')
 )
