@@ -89,4 +89,14 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 4. Efficiency of models could be improved with time as better algorithms are found.
 5. An easy to use end to end solution can be setup for universities and testing agencies.
 
+## Screenshots:
+
+![alt text](/Screenshots/Cell%20phone.png).
+![alt text](/Screenshots/Cell%20phone.png).
+![alt text](/Screenshots/headphone2.JPG).
+![alt text](/Screenshots/headphone3.JPG).
+![alt text](/Screenshots/person.JPG).
+
+![alt text](/Screenshots/Similarity%20checker.png).
+![alt text](/Screenshots/Speech%20Recognition.png).
 [Demo Video]()
