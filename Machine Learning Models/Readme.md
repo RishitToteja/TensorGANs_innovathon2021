@@ -29,3 +29,10 @@
                                                   
 7. **Speech Recognition** : Made a Speech recognition program in python to convert the speech to text and check wehther the user is cheating or not. For speech to text                                       conversion, used speech_recognition library in python.
                             After the speech was converted into string/text format, the text similarity was checked against the question paper to check whether the user was                                 speaking anything related to the question paper. This could be used to identify whehter the user is cheating or not.
+                            
+
+## Datasets
+1. Headphone Dataset[Self Created](https://github.com/Toteja/Headphones_Dataset)
+2. MS Coco Dataset
+3. Google News Vector Dataset
+4. Open CV Classifier Dataset
