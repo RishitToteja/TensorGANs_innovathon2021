@@ -50,6 +50,7 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 - No cheating and gain for both students and teachers!
 
 ## Flowchart
+![alt text](/flowchart.JPG)
 
 ## Explanation of the models:
 1. **Mouth Movement Tracking**: It detects whenever the student opens his/her mouth. This can help catch cheating attempts.
