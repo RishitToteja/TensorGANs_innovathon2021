@@ -32,7 +32,7 @@
                             
 
 ## Datasets
-1. Headphone Dataset[Self Created](https://github.com/Toteja/Headphones_Dataset)
+1. Headphone Dataset [Self Created](https://github.com/Toteja/Headphones_Dataset)
 2. MS Coco Dataset
 3. Google News Vector Dataset
 4. Open CV Classifier Dataset
