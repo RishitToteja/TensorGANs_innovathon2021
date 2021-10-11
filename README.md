@@ -93,7 +93,6 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 ![alt text](/Screenshots/eyes_detection.jpg)
 ![alt text](/Screenshots/mouth_detection.jpg)
 ![alt text](/Screenshots/Cell%20phone.png)
-![alt text](/Screenshots/Cell%20phone.png)
 ![alt text](/Screenshots/headphone2.JPG)
 ![alt text](/Screenshots/headphone3.JPG)
 ![alt text](/Screenshots/person.JPG)
@@ -102,5 +101,3 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 ![alt text](/Screenshots/Similarity%20checker.png)
 ![alt text](/Screenshots/Speech%20Recognition.png)
 
-
-[Demo Video]()
