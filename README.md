@@ -99,4 +99,11 @@ Apart from removing the burden from the shoulders of teachers, proctoring would 
 
 ![alt text](/Screenshots/Similarity%20checker.png).
 ![alt text](/Screenshots/Speech%20Recognition.png).
+![alt text](/Screenshots/person2.png).
+![alt text](/Screenshots/person3.JPG).
+
+![alt text](/Screenshots/eyes_detection.jpg).
+
+![alt text](/Screenshots/mouth_detection.jpg).
+
 [Demo Video]()
