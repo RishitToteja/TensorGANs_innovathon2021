@@ -112,7 +112,7 @@ main {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-
+ /*Maintaining the transparency of website*/
 .bg{
 	background-color: rgba(0,0,0, 0.4);
 }
@@ -164,6 +164,8 @@ background-size:cover;
 	justify-content: center;
 	text-align: center;
 }
+
+
 .about2{
 		align-content: center;
 	justify-content: center;
